@@ -24,28 +24,23 @@ function Header() {
             </svg>
           </button>
           <img
-            src="/assets/MainContent-Assets/Main.svg"
+            src="/assets/MainContent-Assets/mainLogo.svg"
             className="w-auto max-w-[100px] h-auto ml-3"
-            alt=""
           />
         </div>
         {/* Right Side */}
         <div className="flex items-center justify-end gap-2 mt-2 md:mt-0">
-          <button
-            id="loginBtn"
-            className="min-w-[100px] md:min-w-[120px] bg-[#0173b9] text-white py-2 px-4 rounded-full text-sm md:text-base font-bold"
-          >
-            Üye Girişi  
+          <button className="min-w-[100px] md:min-w-[120px] bg-[#0173b9] text-white py-2 px-4 rounded-full text-sm md:text-base font-bold">
+            Üye Girişi
           </button>
-          <button
-            id="registerBtn"
-            className="min-w-[100px] md:min-w-[120px] bg-[#23aae2] text-white rounded-full py-2 px-4 text-sm md:text-base font-bold"
-          >
+          <button className="min-w-[100px] md:min-w-[120px] bg-[#23aae2] text-white rounded-full py-2 px-4 text-sm md:text-base font-bold">
             Üye Ol
           </button>
-          <img src="/assets/MainContent-Assets/Page 1 (1).svg"
-          className="bg-[#40CD8C] p-2 rounded ml-8 hidden md:flex "
-          alt=""/>
+          <img
+            src="/assets/MainContent-Assets/balance.svg"
+            className="bg-[#40CD8C] p-2 rounded ml-8 hidden md:flex "
+            alt=""
+          />
         </div>
       </div>
     </header>
